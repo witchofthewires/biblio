@@ -2,9 +2,12 @@
 *png
 *ods
 
-data/
+privdata/
 
 Include/
 Lib/
 Scripts/
 pyvenv.cfg
+
+__pycache__/
+tests/__pycache__/

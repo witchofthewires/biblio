@@ -9,7 +9,7 @@ REGEX = re.compile(r'(\([^\(\)]+?, [0-9]{4}\))')
 
 def ocr_page(filename, rotate=True):
 
-    image = Image.open(sys.argv[1])
+    image = Image.open(filename)
 
     if image.mode == 'RGBA':
         r,g,b,a = image.split()
